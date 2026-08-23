@@ -17,7 +17,7 @@ use Liberu\RealEstate\LettingsFilament\Resources\LettingResource\Pages\CreateLet
 use Liberu\RealEstate\LettingsFilament\Resources\LettingResource\Pages\EditLetting;
 use Liberu\RealEstate\LettingsFilament\Resources\LettingResource\Pages\ListLettings;
 
- final class LettingResource extends Resource
+final class LettingResource extends Resource
 {
     protected static ?string $model = Letting::class;
 
